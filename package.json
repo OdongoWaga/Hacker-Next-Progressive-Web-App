@@ -1,0 +1,17 @@
+{
+	"name": "hackernext",
+	"version": "1.0.0",
+	"description": "Hacker News Clone With Next.js",
+	"main": "server.js",
+	"scripts": {
+		"dev": "next"
+	},
+	"author": "Waga",
+	"license": "ISC",
+	"dependencies": {
+		"isomorphic-fetch": "^2.2.1",
+		"next": "^8.0.3",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	}
+}
