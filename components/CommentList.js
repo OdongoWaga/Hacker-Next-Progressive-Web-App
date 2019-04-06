@@ -1,3 +1,5 @@
+import Comment from "./Comment";
+
 export default ({ comments }) => (
 	<React.Fragment>
 		{comments.map((comment) => (
