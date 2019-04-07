@@ -42,40 +42,40 @@ class Story extends React.Component {
 					{story.comments.length > 0 ? (
 						<CommentList comments={story.comments} />
 					) : (
-						<div>No comments for this story</div>
-					)}
+							<div>No comments for this story</div>
+						)}
 				</main>
 
 				<style jsx>{`
-					main {
-						padding: 1em;
-					}
-					.story-title {
-						font-size: 1.2rem;
-						margin: 0;
-						font-weight: 300;
-						padding-bottom: 0.5em;
-					}
-					.story-title a {
-						color: #333;
-						text-decoration: none;
-					}
-					.story-title a:hover {
-						text-decoration: underline;
-					}
-					.story-details {
-						font-size: 0.8rem;
-						padding-bottom: 1em;
-						border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-						margin-bottom: 1em;
-					}
-					.story-details strong {
-						margin-right: 1em;
-					}
-					.story-details a {
-						color: #f60;
-					}
-				`}</style>
+          main {
+            padding: 1em;
+          }
+          .story-title {
+            font-size: 1.2rem;
+            margin: 0;
+            font-weight: 300;
+            padding-bottom: 0.5em;
+          }
+          .story-title a {
+            color: #333;
+            text-decoration: none;
+          }
+          .story-title a:hover {
+            text-decoration: underline;
+          }
+          .story-details {
+            font-size: 0.8rem;
+            padding-bottom: 1em;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin-bottom: 1em;
+          }
+          .story-details strong {
+            margin-right: 1em;
+          }
+          .story-details a {
+            color: #f60;
+          }
+        `}</style>
 			</Layout>
 		);
 	}
